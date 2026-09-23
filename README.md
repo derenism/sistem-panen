@@ -1,0 +1,7 @@
+mkdir sistem-panen
+cd sistem-panen
+# Membuat berkas python sederhana
+echo "def hitung_total(panen_list): return sum(panen_list)" > main.py
+git init
+git add main.py
+git commit -m "Commit pertama: Menambahkan fungsi dasar penghitung total panen"
